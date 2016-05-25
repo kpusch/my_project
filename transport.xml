@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<booklist cnt="5">
+
+<book ISBN="0399250395">
+
+<SN>1</SN>
+
+<title>신도림</title>
+
+<WKDAY>333873</WKDAY>
+
+<SATDAY>298987</SATDAY>
+
+<SUNDAY>216886</SUNDAY>
+
+</book>
+
+
+<book ISBN="0964729237">
+
+<SN>2</SN>
+
+<title>동대문역사문화공원</title>
+
+<WKDAY>251049</WKDAY>
+
+<SATDAY>211456</SATDAY>
+
+<SUNDAY>150589</SUNDAY>
+
+</book>
+
+
+<book ISBN="0553281097">
+
+<SN>3</SN>
+
+<title>충무로</title>
+
+<WKDAY>229882</WKDAY>
+
+<SATDAY>194865</SATDAY>
+
+<SUNDAY>142150</SUNDAY>
+
+</book>
+
+
+<book ISBN="0233281097">
+
+<SN>4</SN>
+
+<title>종로3가</title>
+
+<WKDAY>224539</WKDAY>
+
+<SATDAY>196606</SATDAY>
+
+<SUNDAY>142525</SUNDAY>
+
+</book>
+
+
+<book ISBN="0553281037">
+
+<SN>5</SN>
+
+<title>사당</title>
+
+<WKDAY>200985</WKDAY>
+
+<SATDAY>180230</SATDAY>
+
+<SUNDAY>134354</SUNDAY>
+
+</book>
+
+
+</booklist>

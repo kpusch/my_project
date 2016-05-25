@@ -1,4 +1,5 @@
 # -*- coding: cp949 -*-
+from subwaybook import *
 from xml.dom.minidom import parse, parseString # minidom 모듈의 파싱 함수를 임포트합니다.
 from xml.etree import ElementTree
 
@@ -6,7 +7,6 @@ from xml.etree import ElementTree
 loopFlag = 1
 xmlFD = -1
 BooksDoc = None
-
 
 #### Menu  implementation
 def printMenu():
@@ -26,8 +26,9 @@ def printMenu():
     print("========Menu==========")
     
 def launcherFunction(menu):
+    global BooksDoc
     if menu ==  'l':
-        LoadXMLFromFile()
+        BooksDoc = LoadXMLFromFile()
     elif menu == 'q':
         QuitBookMgr()
     elif menu == 'p':
