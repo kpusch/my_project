@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+   
+    <div class="post-preview">
+        <a href="post.html">
+            <h2 class="post-title">
+		test11
+	    </h2>
+            <h3 class="post-subtitle">
+		test11
+	    </h3>
+	<p class="post-meta">Written by <a href="#">{{ question.user }} </a> on: {{ post.updated_at }}</p>
+    </div>
+   
+	  <!-- Pager -->
+    <ul class="pager">
+        <li class="next">
+            <a href="#">Older Posts</a>
+        </li>
+	
+	<li class="next">
+            <a href="static/police.zip">App Download</a>
+        </li>
+    </ul>
+
+
+{% endblock %}

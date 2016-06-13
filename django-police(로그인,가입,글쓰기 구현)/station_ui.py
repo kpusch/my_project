@@ -1,0 +1,91 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'station.ui'
+#
+# Created by: PyQt5 UI code generator 5.6
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_Form(object):
+    def setupUi(self, Form):
+        Form.setObjectName("Form")
+        Form.resize(446, 416)
+        self.tabWidget = QtWidgets.QTabWidget(Form)
+        self.tabWidget.setGeometry(QtCore.QRect(10, 10, 421, 381))
+        self.tabWidget.setObjectName("tabWidget")
+        self.tab = QtWidgets.QWidget()
+        self.tab.setObjectName("tab")
+        self.pushButton = QtWidgets.QPushButton(self.tab)
+        self.pushButton.setGeometry(QtCore.QRect(130, 10, 93, 28))
+        self.pushButton.setObjectName("pushButton")
+        self.listWidget = QtWidgets.QListWidget(self.tab)
+        self.listWidget.setGeometry(QtCore.QRect(60, 60, 301, 291))
+        self.listWidget.setObjectName("listWidget")
+        self.tabWidget.addTab(self.tab, "")
+        self.tab_2 = QtWidgets.QWidget()
+        self.tab_2.setObjectName("tab_2")
+        self.textBrowser = QtWidgets.QTextBrowser(self.tab_2)
+        self.textBrowser.setGeometry(QtCore.QRect(80, 10, 301, 31))
+        self.textBrowser.setObjectName("textBrowser")
+        self.pushButton_3 = QtWidgets.QPushButton(self.tab_2)
+        self.pushButton_3.setGeometry(QtCore.QRect(160, 60, 93, 28))
+        self.pushButton_3.setObjectName("pushButton_3")
+        self.listView_2 = QtWidgets.QListView(self.tab_2)
+        self.listView_2.setGeometry(QtCore.QRect(80, 100, 271, 221))
+        self.listView_2.setObjectName("listView_2")
+        self.label_5 = QtWidgets.QLabel(self.tab_2)
+        self.label_5.setGeometry(QtCore.QRect(10, 20, 64, 15))
+        self.label_5.setObjectName("label_5")
+        self.tabWidget.addTab(self.tab_2, "")
+        self.tab_3 = QtWidgets.QWidget()
+        self.tab_3.setObjectName("tab_3")
+        self.pushButton_2 = QtWidgets.QPushButton(self.tab_3)
+        self.pushButton_2.setGeometry(QtCore.QRect(150, 260, 93, 28))
+        self.pushButton_2.setObjectName("pushButton_2")
+        self.textEdit = QtWidgets.QTextEdit(self.tab_3)
+        self.textEdit.setGeometry(QtCore.QRect(100, 20, 251, 31))
+        self.textEdit.setObjectName("textEdit")
+        self.textEdit_2 = QtWidgets.QTextEdit(self.tab_3)
+        self.textEdit_2.setGeometry(QtCore.QRect(100, 80, 251, 31))
+        self.textEdit_2.setObjectName("textEdit_2")
+        self.textEdit_3 = QtWidgets.QTextEdit(self.tab_3)
+        self.textEdit_3.setGeometry(QtCore.QRect(100, 130, 251, 31))
+        self.textEdit_3.setObjectName("textEdit_3")
+        self.textEdit_4 = QtWidgets.QTextEdit(self.tab_3)
+        self.textEdit_4.setGeometry(QtCore.QRect(100, 170, 251, 81))
+        self.textEdit_4.setObjectName("textEdit_4")
+        self.label = QtWidgets.QLabel(self.tab_3)
+        self.label.setGeometry(QtCore.QRect(10, 30, 64, 15))
+        self.label.setObjectName("label")
+        self.label_2 = QtWidgets.QLabel(self.tab_3)
+        self.label_2.setGeometry(QtCore.QRect(10, 90, 64, 15))
+        self.label_2.setObjectName("label_2")
+        self.label_3 = QtWidgets.QLabel(self.tab_3)
+        self.label_3.setGeometry(QtCore.QRect(10, 140, 64, 15))
+        self.label_3.setObjectName("label_3")
+        self.label_4 = QtWidgets.QLabel(self.tab_3)
+        self.label_4.setGeometry(QtCore.QRect(10, 200, 64, 15))
+        self.label_4.setObjectName("label_4")
+        self.tabWidget.addTab(self.tab_3, "")
+
+        self.retranslateUi(Form)
+        self.tabWidget.setCurrentIndex(1)
+        QtCore.QMetaObject.connectSlotsByName(Form)
+
+    def retranslateUi(self, Form):
+        _translate = QtCore.QCoreApplication.translate
+        Form.setWindowTitle(_translate("Form", "Form"))
+        self.pushButton.setText(_translate("Form", "Search"))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), _translate("Form", "Search(All)"))
+        self.pushButton_3.setText(_translate("Form", "Search"))
+        self.label_5.setText(_translate("Form", "역명 입력"))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_2), _translate("Form", "Search(Station)"))
+        self.pushButton_2.setText(_translate("Form", "Send"))
+        self.label.setText(_translate("Form", "ID(Gmail)"))
+        self.label_2.setText(_translate("Form", "Password"))
+        self.label_3.setText(_translate("Form", "Sent To"))
+        self.label_4.setText(_translate("Form", "Mail Title"))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_3), _translate("Form", "Email"))
+
