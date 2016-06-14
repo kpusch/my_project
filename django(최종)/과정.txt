@@ -1,0 +1,3 @@
+python manage.py startapp login 통해 앱 생성
+
+stapp 역시 같은과정(메인화면)
